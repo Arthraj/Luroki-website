@@ -453,8 +453,13 @@ when they will be clicked. */
     
     .navbar{
         height: 110px;
+       
     }
 
+    .showcase-text{
+        padding-left:40px;
+        padding-right: 40px;
+    }
     .navbar .flex{
         flex-direction: column;
     }
@@ -464,5 +469,23 @@ when they will be clicked. */
         background-color:rgba(0,0,0,0.1);
     }
 
+    .footer .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .footer .container>*:nth-child(2){
+        justify-self: center;
+    }
+
+    .footer .container>*:nth-child(3){
+        grid-column: 1/span 3;
+    }
+
+    .social{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 
 }
