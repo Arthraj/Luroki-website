@@ -419,6 +419,7 @@ when they will be clicked. */
     }
 
     .showcase-form{
+        width:93%;
         justify-self: center;
         margin: auto;
         animation: slideInFromBottom 1s ease;
